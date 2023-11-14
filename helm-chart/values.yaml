@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: siddharth67/block-buster-dev:7.5.0
+  repository: siddharth67/block-buster-dev:7.6.0
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -16,7 +16,7 @@ service:
   targetPort: 80
 
 namespace:
-  name: demo-app
+  name: helm-demo-app
   
 labels:
   app:
